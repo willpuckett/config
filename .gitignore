@@ -1,1 +1,6 @@
 .DS_Store
+.moonraker.conf.bkp
+.theia/launch.json
+printer-*.cfg
+*.config.old
+*.secrets
