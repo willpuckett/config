@@ -3,16 +3,16 @@
 ## Upstream Docs
 
 - [Robin Nano V3.1 Repo](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001)
-- [Robin Nano V3.1 Schematic](https://pax.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/MKS%20Robin%20Nano%20V3.1_001/MKS%20Robin%20Nano%20V3.1_001%20SCH.pdf)
-- [danorder config](https://pax.deno.dev/danorder/Flsun-super-racer-Full-klipper-config-@main/printer.cfg)
+- [Robin Nano V3.1 Schematic](https://pux.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/MKS%20Robin%20Nano%20V3.1_001/MKS%20Robin%20Nano%20V3.1_001%20SCH.pdf?b)
+- [danorder config](https://pux.deno.dev/danorder/Flsun-super-racer-Full-klipper-config-@main/printer.cfg)
 
 ## Pins
 
-- [Robin Nano V3.1 Pinout PDF](https://pax.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/MKS%20Robin%20Nano%20V3.1_001/MKS%20Robin%20Nano%20V3.1_001%20PIN.pdf)
+- [Robin Nano V3.1 Pinout PDF](https://pux.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/MKS%20Robin%20Nano%20V3.1_001/MKS%20Robin%20Nano%20V3.1_001%20PIN.pdf?b)
 
-![Robin Nano V3.1 Pinout](https://pax.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/Image-V3/MKS_Robin_Nano_V3_PIN.png)
+![Robin Nano V3.1 Pinout](https://pux.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/Image-V3/MKS_Robin_Nano_V3_PIN.png)
 
-![Robin Nano V3.1 Wiring](https://pax.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/Image-V3/MKS_Robin_Nano_V3_WIRING.jpg)
+![Robin Nano V3.1 Wiring](https://pux.deno.dev/makerbase-mks/MKS-Robin-Nano-V3.X@main/hardware/Image-V3/MKS_Robin_Nano_V3_WIRING.jpg)
 
 ### Stepper Pins
 

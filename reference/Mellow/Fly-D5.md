@@ -3,13 +3,13 @@
 ## Upstream Docs
 
 - [Mellow Fly D5 Main Repo](https://github.com/Mellow-3D/Fly-D5)
-- [Mellow Fly D5 Schematic](https://pax.deno.dev/Mellow-3D/Fly-D5/Hardware/Fly-D5-Schematic.pdf)
+- [Mellow Fly D5 Schematic](https://pux.deno.dev/Mellow-3D/Fly-D5/Hardware/Fly-D5-Schematic.pdf?b)
 
 ## Pins
 
 - [Mellow Fly D5 Pins](https://mellow-3d.github.io/fly_d5_pins.html)
 
-![Fly D5 Pinout](https://pax.deno.dev/Mellow-3D/Fly-D5/Hardware/Fly-D5-Pinout.svg)
+![Fly D5 Pinout](https://pux.deno.dev/Mellow-3D/Fly-D5/Hardware/Fly-D5-Pinout.svg)
 
 ## Mounting
 
