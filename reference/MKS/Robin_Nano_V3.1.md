@@ -34,7 +34,7 @@ PD0/PD1 are also 5v tolerant CAN capable pins.
 
 ## Flashing Katapult
 
-1. Using a Xiao flashed as debugger connect the following pins:
+1. Using a Xiao [flashed as debugger](https://embeddedcomputing.weebly.com/the-5-programmer-debugger.html) connect the following pins:
 
 | Xiao | Robin Nano |
 | ---- | ---------- |
