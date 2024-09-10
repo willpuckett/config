@@ -1,7 +1,10 @@
 #include <Adafruit_NeoPixel.h>
 #include <Arduino.h>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24
 int Power = 11;
 int Neo_PIN = 12;
 
@@ -9,13 +12,19 @@ int Neo_PIN = 12;
 #define THRESHOLD 69
 #define DELAY 100
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24
 Adafruit_NeoPixel pixels(NUMPIXELS, Neo_PIN, NEO_GRB + NEO_KHZ800);
 
 const int piezoPin = A0;
 const int outPin = D10;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24
 void setup()
 {
   // Setup input

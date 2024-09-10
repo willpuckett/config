@@ -1,9 +1,12 @@
+<!-- From https://www.digikey.com/en/maker/tutorials/2020/understanding-stm32-naming-conventions -->
+
 ## Understanding STM32 Naming Conventions
 
-## 5/20/2020 | By [Maker.io Staff](https://www.digikey.com/en/maker/profiles/aeb8ce012a0e494a97c054c40c8b3f1e)
+![Understanding STM32 Naming Conventions](https://www.digikey.com/-/media/MakerIO/Images/blogs/2020/Understanding%20STM32%20Naming%20Conventions/Understanding-STM32-Naming-Conventions.jpg)
 
-![Understanding STM32 Naming Conventions](https://www.digikey.com/-/media/MakerIO/Images/blogs/2020/Understanding%20STM32%20Naming%20Conventions/Understanding-STM32-Naming-Conventions.jpg?la=en-US&ts=638cd51f-e2bd-4a16-b2d0-97db568cb2a0 "Understanding STM32 Naming Conventions")
+### Types
 
+<<<<<<< HEAD:reference/robin_nano/STM_naming.md
 The
 [STM32](https://www.digikey.com/en/products/filter/embedded-microcontrollers/685?s=N4IgTCBcDaIKIFsBGBTAJm9ACAtFgsgJYDGATgPbHkB2ALhQDYMqkDOIANCAMoAq%2BAZjAAZAAwgAugF8gA)
 is a 32-bit family of microcontrollers produced by STM based on popular 32-bit
@@ -12,9 +15,19 @@ it’s often quite hard to make sense of the name that’s printed on the IC’s
 However, these descriptors aren’t chosen at random. They follow a clever naming
 convention, and in this blog, we’ll discuss what each part of that identifier
 means so that you can quickly decipher the cryptic model numbers in the future!
+=======
+| Type | Description                                 |
+| ---- | ------------------------------------------- |
+| F    | Foundation, sometimes High performance (F2) |
+| L    | Low power                                   |
+| G    | General purpose                             |
+| H    | High performance                            |
+| W    | Wireless                                    |
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24:reference/STM32_naming.md
 
-### Dissecting the Model Identifier for STM32
+### Core
 
+<<<<<<< HEAD:reference/robin_nano/STM_naming.md
 This article will use the STM32L151R8T6 to explain what each part of its name
 means.
 
@@ -26,22 +39,72 @@ device, for example, the peripherals, and the speed. The following letter
 denotes the number of pins. After that comes either a number or a letter that
 denotes the MCU’s flash-memory size. This is followed by the package descriptor.
 The last number informs you about the device’s operating temperature range:
+=======
+| Core | Description   |
+| ---- | ------------- |
+| 0    | ARM Cortex-M0 |
+| 1    | ARM Cortex-M3 |
+| 2    | ARM Cortex-M3 |
+| 3    | ARM Cortex-M4 |
+| 4    | ARM Cortex-M4 |
+| 7    | ARM Cortex-M7 |
 
-![Understanding STM32 Naming Conventions](https://www.digikey.com/-/media/MakerIO/Images/blogs/2020/Understanding%20STM32%20Naming%20Conventions/model_A.jpg?la=en&ts=ade1a469-05fb-4495-ab91-5f99f81ad324 "Understanding STM32 Naming Conventions")
+### Pin Count
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24:reference/STM32_naming.md
 
-### Understanding the different values
+| Descriptor | Number of Pins |
+| ---------- | -------------- |
+| F          | 20             |
+| G          | 28             |
+| K          | 32             |
+| T          | 36             |
+| S          | 44             |
+| C          | 48             |
+| R          | 64 or 66       |
+| V          | 100            |
+| Z          | 144            |
+| I          | 176            |
 
+### Flash Size
+
+<<<<<<< HEAD:reference/robin_nano/STM_naming.md
 The following tables will help you understand what each value within every field
 mentioned above means.
+=======
+| Description | Flash Size |
+| ----------- | ---------- |
+| 4           | 16KB       |
+| 6           | 32KB       |
+| 8           | 64KB       |
+| B           | 128KB      |
+| C           | 256KB      |
+| D           | 384KB      |
+| E           | 512KB      |
+| F           | 768KB      |
+| G           | 1024 KB    |
+| H           | 1536KB     |
+| I           | 2048KB     |
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24:reference/STM32_naming.md
 
-![Understanding STM32 Naming Conventions](https://www.digikey.com/-/media/MakerIO/Images/blogs/2020/Understanding%20STM32%20Naming%20Conventions/Table_1.jpg?la=en&ts=a261c593-8694-49ce-9c75-0203b511b4b3 "Understanding STM32 Naming Conventions")
+### Package
 
+<<<<<<< HEAD:reference/robin_nano/STM_naming.md
 It’s interesting to note that the names largely follow a scheme, however, they
 evolve with the products, and some names fall out of the scheme. For example,
 the STM32 F2 series, which is a high-performance MCU. Next, the core:
+=======
+| Descriptor | Package |
+| ---------- | ------- |
+| P          | TSOOP   |
+| H          | BGA     |
+| U          | VFQFPN  |
+| T          | LQFP    |
+| Y          | WLCSP   |
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24:reference/STM32_naming.md
 
-![Understanding STM32 Naming Conventions](https://www.digikey.com/-/media/MakerIO/Images/blogs/2020/Understanding%20STM32%20Naming%20Conventions/Table_2.jpg?la=en&ts=cc625d6c-d4ba-4398-8e27-12c843a468f4 "Understanding STM32 Naming Conventions")
+### Temperature Range
 
+<<<<<<< HEAD:reference/robin_nano/STM_naming.md
 Note that some numbers might refer to the same core, for example, one and two.
 For the line of the MCU, refer to the STM product page, as this is not universal
 among the devices.
@@ -80,3 +143,9 @@ Have questions or comments? Continue the conversation on
 technical resource.
 
 [Visit TechForum](https://forum.digikey.com/)
+=======
+| Descriptor | Temperature Range |
+| ---------- | ----------------- |
+| 6          | -40°C to 85°C     |
+| 7          | -40°C to 105°C    |
+>>>>>>> d5aeb7627819f8a478c22e859906372a6ebcac24:reference/STM32_naming.md
